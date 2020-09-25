@@ -10,3 +10,5 @@
 • Created form with fields and checkboxes to evaluate candidates and then mail to appropriate people
 
 • Setup ACL levels for the different types of users that will be accessing the database
+
+(GUI look like Lotus Notes. colors, layout, etc)
