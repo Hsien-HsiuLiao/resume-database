@@ -1,4 +1,6 @@
-# resume-database
+## Usage --
+
+## resume-database
 
 
 • Collaborated with managers in creating a Lotus Notes database using Lotus Designer to facilitate the process of searching through resumes, setting up interviews for potential candidates, and evaluating the candidates.
