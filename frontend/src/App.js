@@ -1,6 +1,6 @@
 import React from 'react';
-import CandidateView from 'components/CandidateView.js';
-import ManagerView from 'components/ManagerView.js';
+import { CandidateView } from './components/CandidateView.js';
+import { ManagerView } from './components/ManagerView.js';
 
 import './App.css';
 

@@ -6,8 +6,14 @@ export const ManagerView = () => {
             <h1>Available resumes</h1>
 
             <li>candidate 1: (resume text)
-            (radio button to select interest)
             </li>
+            <form action="isInterested()">
+  <input type="checkbox" id="interested" name="interested" value="Interested">
+        </input>
+  <label for="interested">Interested</label><br />
+  <input type="submit" value="Submit">
+      </input>
+</form>
         </div>
     )
 }
