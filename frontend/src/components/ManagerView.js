@@ -34,6 +34,26 @@ export const ManagerView = () => {
                 <input type="submit" value="Submit">
                 </input>
             </form>
+
+            <li>candidate 4: (resume text)
+            </li>
+            <form action="isInterested()">
+                <input type="checkbox" id="interested" name="interested" value="Interested">
+                </input>
+                <label for="interested">Interested</label><br />
+                <input type="submit" value="Submit">
+                </input>
+            </form>
+
+            <li>candidate 5: (resume text)
+            </li>
+            <form action="isInterested()">
+                <input type="checkbox" id="interested" name="interested" value="Interested">
+                </input>
+                <label for="interested">Interested</label><br />
+                <input type="submit" value="Submit">
+                </input>
+            </form>
         </div>
     )
 }
