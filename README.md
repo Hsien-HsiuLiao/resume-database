@@ -14,3 +14,5 @@
 • Setup ACL levels for the different types of users that will be accessing the database
 
 (GUI look like Lotus Notes. colors, layout, etc)
+
+* what transactions should be recorded on blockchain, what data to store on MOngoDB
