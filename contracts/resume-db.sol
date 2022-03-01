@@ -10,6 +10,14 @@ contract Resume-db {
 
 
   */
+  address hiringManager;
+
+  struct Candidate {
+    string name;
+    string email;
+    bool invitedToInterview;
+    address ethAccount;
+  }
   
   //constructor
 
