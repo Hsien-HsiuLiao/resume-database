@@ -18,6 +18,8 @@ contract Resume-db {
     bool invitedToInterview;
     address ethAccount;
   }
+
+  Candidate[] public candidates;
   
   //constructor
 
@@ -30,5 +32,22 @@ contract Resume-db {
 
   */
   
-  
+  function registerCandidate(string _name, string _email) external {
+    candidates.push(Candidate(
+      _name,
+      _email,
+      false,
+      msg.sender
+      )
+    );
+  }
+
+  //used to get candidates and list them for the hiring mgr
+  function getCandidates() external returns(Candidate[] memory) {
+    return candidates;
+  }
+
+  function registerHiringMgr() external {
+    hiringManager = msg.sender;
+  }
 }
