@@ -16,3 +16,5 @@
 (GUI look like Lotus Notes. colors, layout, etc)
 
 * what transactions should be recorded on blockchain, what data to store on MOngoDB
+
+* follow architecture, structure of talgy
